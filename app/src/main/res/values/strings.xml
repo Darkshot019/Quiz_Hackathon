@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <string-array name="Choose_Branch">
+
+        <item>Computer Science Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>Mechanical Engineering</item>
+
+    </string-array>
+
+    <string-array name="Choose_Year">
+
+        <item>I YEAR</item>
+        <item>I YEAR</item>
+        <item>I YEAR</item>
+    </string-array>
+</resources>

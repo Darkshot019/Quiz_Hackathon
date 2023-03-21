@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:id="@+id/timer_out_dialog"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#ff9999"
+    android:layout_gravity="center"
+    android:layout_height="250dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opps time out...."
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/img"
+            android:layout_marginTop="20dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/btn_tryagain"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/timeout_btn_shape"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Try Again"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

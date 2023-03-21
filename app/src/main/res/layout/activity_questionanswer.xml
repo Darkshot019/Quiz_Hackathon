@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#21d6d3"
+    android:id="@+id/question_answer"
+    tools:context=".questionanswer"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        //Question Design
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_text_field_design"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Tap to add a Question"
+            android:textColorHint="@color/white">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:maxLines="15"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        //Option 1
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_input_field"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Add Option 1"
+            android:textColorHint="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        //Option 2
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Add Option 2"
+            android:textColorHint="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        //Option 3
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Add Option 3"
+            android:textColorHint="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        //Option 4
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Add Option 4"
+            android:textColorHint="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        //answer
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Answer"
+            android:textColorHint="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_tryagain"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/next_btn_teacher"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ADD"
+                android:textColor="@color/primarytext"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
